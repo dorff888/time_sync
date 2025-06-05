@@ -1,0 +1,13 @@
+{
+  "name": "Time Sync Add-on",
+  "version": "1.0",
+  "slug": "time_sync",
+  "description": "Автоматична синхронізація часу через ntpd",
+  "arch": ["armv7", "armhf", "aarch64", "amd64", "i386"],
+  "startup": "services",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "host_network": true,
+  "init": false
+}
